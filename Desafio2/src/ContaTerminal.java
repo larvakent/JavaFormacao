@@ -4,11 +4,7 @@ public class ContaTerminal {
     private String nomeCliente;
     private double saldo;
 
-    public ContaTerminal(int numeroConta, String agencia, String nomeCliente, double saldo) {
-        this.numeroConta = numeroConta;
-        this.agencia = agencia;
-        this.nomeCliente = nomeCliente;
-        this.saldo = saldo;
+    public ContaTerminal() {
     }
 
     public int getNumeroConta() {
